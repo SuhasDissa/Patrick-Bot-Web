@@ -1,324 +1,364 @@
 <!DOCTYPE html>
-<html>
+<html  >
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Discord bot කුඩු අංජු</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./w3.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size: 16px;}
-img {margin-bottom: -8px;}
-.mySlides {display: none;}
-</style>
-<style>
-* {box-sizing: border-box}
-
-/* Style the tab */
-.tab {
-  float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
-  height: 500px;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current "tab button" class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  float: left;
-  padding: 0px 12px;
-  border: 1px solid #ccc;
-  width: 70%;
-  border-left: none;
-  height: 500px;
-  color: #000;
-  background-color: #fff;
-}
-
-</style>
-</head><body class="w3-content w3-black" style="max-width:1500px;">
-
-<!-- Header with Slideshow -->
-<header class="w3-display-container w3-center">
-  <a class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" href="https://discordapp.com/oauth2/authorize?client_id=729231787804590153&scope=bot&permissions=470285439">Invite bot</a>
-  <div class="mySlides w3-animate-opacity" style="display: block;">
-    <img class="w3-image" src="./app.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
-    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge">Make your server awasome with Our bot</h1>
-        <hr class="w3-opacity">
-        <p>Super simple install free of charge</p>
-        <p><a class="w3-button w3-block w3-green w3-round" href="https://discordapp.com/oauth2/authorize?client_id=729231787804590153&scope=bot&permissions=470285439">Invite bot</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="mySlides w3-animate-opacity" style="display: none;">
-    <img class="w3-image" src="./app2.jpg" alt="Image 2" style="min-width:500px" width="1500" height="1000">
-    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge w3-text-red"><b>CLICK!</b> Fast and Easy</h1>
-        <hr class="w3-opacity">
-        <p>With fun and usefull commands</p>
-        <p><a class="w3-button w3-block w3-red w3-round" href="https://discordapp.com/oauth2/authorize?client_id=729231787804590153&scope=bot&permissions=470285439">Invite bot</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="mySlides w3-animate-opacity" style="display: none;">
-    <img class="w3-image" src="./app4.jpg" alt="Image 3" style="min-width:500px" width="1500" height="1000">
-    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge">Sri Lankan Product</h1>
-        <hr class="w3-opacity">
-        <p>Use without any hesitation</p>
-        <p><a class="w3-button w3-block w3-indigo w3-round" href="document.getElementById(&#39;download&#39;).style.display=&#39;block&#39;">Invite bot</a></p>
-      </div>
-    </div>
-  </div>
-  <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
-  <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
-</header>
-
-<!-- The App Section -->
-<div class="w3-padding-64 w3-light-grey">
-  <div class="w3-row-padding">
-    <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>කුඩු අංජු</b></h1>
-      <h1 class="w3-xxxlarge w3-text-green"><b>Why this bot?</b></h1>
-      <p><span class="w3-xlarge">Its made by a poor Sri Lankan.</span> You should support that innocent kid.</p>
-      <a class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" href="https://discordapp.com/oauth2/authorize?client_id=729231787804590153&scope=bot&permissions=470285439">
-        <i class="fa fa-download"></i> Invite Bot
-      </a>
-    </div>
-    <div class="w3-col l4 m6">
-      <img src="./img_app.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
-      <div class="w3-center w3-hide-large w3-hide-medium">
-        <a class="w3-button w3-block w3-padding-large" href="https://discordapp.com/oauth2/authorize?client_id=729231787804590153&scope=bot&permissions=470285439">
-          <i class="fa fa-download"></i> Invite bot
-        </a>
-        <img src="./img_app.jpg" class="w3-image w3-margin-top" width="335" height="471">
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Clarity Section -->
-<div class="w3-padding-64 w3-light-grey">
-  <div class="w3-row-padding">
-    <div class="w3-col l4 m6">
-      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="./app5.jpg" alt="App" width="335" height="471">
-    </div>
-    <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>A sri lankan project</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>Who is the developer ?</b></h1>
-      <p><span class="w3-xlarge">This bot is developed by Suhas Dissanayake. suhasdissa@gmail.com &copy;</span></p>
-    </div>
-  </div>
-</div>
-
-<!-- Features Section -->
-<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
-  <h1 class="w3-jumbo"><b>Features</b></h1>
-  <p>This app is just getting more features</p>
-
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-bug w3-text-white w3-jumbo"></i>
-      <p>Full of bugs</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-dashboard w3-text-red w3-jumbo"></i>
-      <p>Very fast response</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-refresh w3-text-light-grey w3-jumbo"></i>
-      <p>Not always online</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-credit-card w3-text-blue w3-jumbo"></i>
-      <p>100% Free</p>
-    </div>
-  </div>
-
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-random w3-text-amber w3-jumbo"></i>
-      <p>Random responses</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-cloud w3-text-blue w3-jumbo"></i>
-      <p>Cloud deployment</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-globe w3-text-amber w3-jumbo"></i>
-      <p>Global</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-hdd-o w3-text-cyan w3-jumbo"></i>
-      <p>Storage</p>
-    </div>
-  </div>
+  <!-- Site made with Mobirise Website Builder v5.4.2, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.4.2, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/desert-80x80.png" type="image/x-icon">
+  <meta name="description" content="">
   
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-user w3-text-green w3-jumbo"></i>
-      <p>Safe</p>
+  
+  <title>Hairless Asshole</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-sFF0ciwnEL" once="menu" id="menu2-0">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://hairless-asshole.glitch.me/">
+                        <img src="assets/images/desert-80x80.png" alt="Mobirise" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-7" href="https://hairless-asshole.glitch.me/">Desert Island Official Bot</a></span>
+            </div>
+            
+            
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="header11 cid-sFF0SGinka" id="header11-1">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 image-wrapper">
+                <img class="w-100" src="assets/images/5kyzc6.jpg" alt="Evil">
+            </div>
+            <div class="col-12 col-md">
+                <div class="text-wrapper text-center">
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
+                        <strong>
+</strong><div><strong><br></strong></div><div><strong>Hi, I'm Hairless Asshole</strong></div></h1>
+                    <p class="mbr-text mbr-fonts-style display-7">A Discord Bot Packed With Ton of Fucking *yet useful* Features. Invite me to your sever or you Asshair will vanish</p>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7" href="index.html#gallery5-3">Invite Me</a></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="w3-col s3">
-      <i class="fa fa-shield w3-text-orange w3-jumbo"></i>
-      <p>Stable</p>
+</section>
+
+<section data-bs-version="5.1" class="features12 cid-sFF3eJNZDT" id="features13-2">
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mb-4 display-1"><strong>What can i do?</strong></h4>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="item mbr-flex">
+                    <div class="icon-box">
+                        <span class="mbr-iconfont mobi-mbri-globe-2 mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                    </div>
+                    <div class="text-box">
+                        <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                            <strong>Information</strong></h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Get latest Information about Covid-19 blhhgh</h5>
+                    </div>
+                </div>
+                <div class="item mbr-flex">
+                    <div class="icon-box">
+                        <span class="mbr-iconfont mobi-mbri-search mobi-mbri"></span>
+                    </div>
+                    <div class="text-box">
+                        <h4 class="icon-title mbr-black mbr-fonts-style display-7"><strong>Search Images</strong></h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Lazy to google for an Image. Just type "image _____" Pretty Simple huh?. With the new Enhanced Image Search feature get any Image with a click of a button</h5>
+                    </div>
+                </div>
+                <div class="item mbr-flex">
+                    <div class="icon-box">
+                        <span class="mbr-iconfont mobi-mbri-photo mobi-mbri"></span>
+                    </div>
+                    <div class="text-box">
+                        <h4 class="icon-title mbr-black mbr-fonts-style display-7"><strong>Meme making</strong></h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">Make funny memes with the built in meme generator</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="w3-col s3">
-      <i class="fa fa-wifi w3-text-white w3-jumbo"></i>
-      <p>Connected</p>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-sFF75ZhH2d" id="image1-b">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/dumbass-tiktok.gif" alt="Dumbass">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-2">
+                        <strong>About The Creator</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">Hi I'm a dumbass and The creator of HairLess-Asshole Discord bot. This is the Best bot ever to fuck up your Discord Server with It's totally useless dumbass features. 100% Garanteed that this bot will fuck your Discord Server in no time.<br>Why are you waiting just invite the bot mfer.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="w3-col s3">
-      <i class="fa fa-ban w3-text-red w3-jumbo"></i>
-      <p>18+</p>
+</section>
+
+<section data-bs-version="5.1" class="pricing2 cid-sFF7wKlLkT" id="pricing2-c">
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 align-center col-lg-6">
+                <div class="plan">
+                    <div class="plan-header">
+                        <h6 class="plan-title mbr-fonts-style mb-3 display-5"><strong>Fuck your server</strong></h6>
+                        <div class="plan-price">
+                            <p class="price mbr-fonts-style m-0 display-1"><strong>$0</strong></p>
+                            <p class="price-term mbr-fonts-style mb-3 display-7"><strong>For Each fuck</strong></p>
+                        </div>
+                    </div>
+                    <div class="plan-body">
+                        <div class="plan-list mb-4">
+                            <ul class="list-group mbr-fonts-style list-group-flush display-7">
+                                <li class="list-group-item">All the features</li><li class="list-group-item">Just</li><li class="list-group-item">For FREE...!!!!</li>
+                            </ul>
+                        </div>
+                        <div class="mbr-section-btn text-center"><a href="https://hairless-asshole.glitch.me/" class="btn btn-primary display-4">Invite</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 align-center col-lg-6">
+                <div class="plan">
+                    <div class="plan-header">
+                        <h6 class="plan-title mbr-fonts-style mb-3 display-5"><strong>Donate the Poor Creator</strong></h6>
+                        <div class="plan-price">
+                            <p class="price mbr-fonts-style m-0 display-1"><strong>$2 - $</strong>∞<strong>&nbsp;</strong></p>
+                            <p class="price-term mbr-fonts-style mb-3 display-7"><strong>For Each donation</strong></p>
+                        </div>
+                    </div>
+                    <div class="plan-body">
+                        <div class="plan-list mb-4">
+                            <ul class="list-group mbr-fonts-style list-group-flush display-7">
+                                <li class="list-group-item">Donate</li><li class="list-group-item">If you are kinda</li><li class="list-group-item">RICH.....!!!</li>
+                            </ul>
+                        </div>
+                        <div class="mbr-section-btn text-center"><a href="https://hairless-asshole.glitch.me/" class="btn btn-primary display-4">Donate me</a></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
     </div>
-  </div>
-</div>
+</section>
 
-<div class="w3-container w3-padding-64 w3-center">
-<h1 class="w3-jumbo"><b>Command guide</b></h1>
-</div>
-<div class="tab">
-  <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'general')">General commands</button>
-  <button class="tablinks" onclick="openCity(event, 'useful')">Useful commands</button>
-  <button class="tablinks" onclick="openCity(event, 'image-commands')">Image commands</button>
-  <button class="tablinks" onclick="openCity(event, 'fun')">Fun commands</button>
-  <button class="tablinks" onclick="openCity(event, 'currency')">Currency commands</button>
-  <button class="tablinks" onclick="openCity(event, 'other')">Other commands</button>
-</div>
+<section data-bs-version="5.1" class="content16 cid-sFF5Wb1ZQt" id="content16-a">
 
-<div id="general" class="tabcontent">
-  <h3>Hi</h3>
-  <p>.hi</p>
-  <h3>Emoji</h3>
-  <p>.emoji</p>
-</div>
+    
 
-<div id="useful" class="tabcontent">
-  <h3>Corona</h3>
-  <p>.corona</p>
-  <h3>Exchange Rates</h3>
-  <p>.exchangerates</p>
-  <h3>Useless Fact</h3>
-  <p>.fact</p>
-</div>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <div class="mbr-section-head align-center mb-4">
+                    <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2"><strong>Command Quick Guide</strong></h3>
+                    
+                </div>
+                <div id="bootstrap-accordion_8" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_8" aria-expanded="false" aria-controls="collapse1">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse1_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_8" data-bs-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa. Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta dapibus rhoncus. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_8" aria-expanded="false" aria-controls="collapse2">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Quisque malesuada non magna eget mollis?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse2_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_8" data-bs-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa. Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta dapibus rhoncus. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_8" aria-expanded="false" aria-controls="collapse3">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse3_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_8" data-bs-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa. Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta dapibus rhoncus. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_8" aria-expanded="false" aria-controls="collapse4">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Phasellus id felis a libero condimentum semper sed?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse4_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_8" data-bs-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa. Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta dapibus rhoncus. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_8" aria-expanded="false" aria-controls="collapse5">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Vestibulum ante ipsum primis in faucibus orci luctus?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse5_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_8" data-bs-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa. Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta dapibus rhoncus. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_8" aria-expanded="false" aria-controls="collapse6">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Phasellus eu ex dui. Duis lobortis laoreet nibh vitae pharetra?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse6_8" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_8" data-bs-parent="#accordion">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada non magna eget mollis. Quisque vehicula, lorem quis sollicitudin mollis, elit enim aliquet lorem, vitae maximus turpis tortor a massa. Phasellus id felis a libero condimentum semper sed sit amet arcu. Suspendisse porta dapibus rhoncus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<div id="image-commands" class="tabcontent">
-  <h3>Image of a friend</h3>
-  <p>.image [name]</p>
-  <h3>Random image</h3>
-  <p>.image random</p>
-  <h3>Random Cat Image</h3>
-  <p>.image cat</p>
-  <h3>Random Female Image</h3>
-  <p>.image female</p>
-  <h3>Random Male Image</h3>
-  <p>.image male</p>
-</div>
-
-<div id="fun" class="tabcontent">
-  <h3>Random riddle (no answer)</h3>
-  <p>.riddle</p>
-  <h3>Empty meme</h3>
-  <p>.meme</p>
-  <h3>Joke</h3>
-  <p>.joke</p>
-  <h3>Future Prediction</h3>
-  <p>.future</p>
-</div>
-
-<div id="currency" class="tabcontent">
-  <h3>Beg for money</h3>
-  <p>.beg</p>
-  <h3>Balance of money</h3>
-  <p>.bal</p>
-</div>
-
-<div id="other" class="tabcontent">
-  <h3>Do nothing</h3>
-  <p>.do</p>
-</div>
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-black w3-center w3-xlarge">
-   <!-- <div class="w3-section">
-    <i class="fa fa-facebook w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>  -->
-  <p class="w3-large w3-text-white">Powered by <a href="https://www.glitch.com" target="_blank" class="w3-hover-text-green">Glitch</a></p>
-</footer> 
-
-<script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-
-<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;" src="./saved_resource.html"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:false,&quot;ss&quot;:true}" style="display: none;"></div></body></html>
+<section data-bs-version="5.1" class="contacts2 cid-sFF3B84VW8" id="contacts2-8">
+    <!---->
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Bot Status</strong></h3>
+            
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="card col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mobi-mbri-info mobi-mbri"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-1 display-5"><strong>Bot Status</strong></h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Offline</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mobi-mbri-growing-chart mobi-mbri"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-1 display-5">
+                            <strong>No of servers</strong></h6>
+                        <p class="mbr-text mbr-fonts-style display-7">online on 1 server</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mobi-mbri-clock mobi-mbri"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-1 display-5">
+                            <strong>Working Hours</strong></h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Work 24x7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="image-wrapper">
+                        <span class="mbr-iconfont mbrib-calendar"></span>
+                    </div>
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-1 display-5">
+                            <strong>Working Days</strong></h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Works 20 days per month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><section hidden style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/m" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Mobirise website maker - <a href="https://mobirise.site/n" style="color:#aaa;">Get more</a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+<input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#232323' data-cookie-colorBg='rgba(255, 181, 181, 0.99)' data-cookie-textButton='OK BOOMER' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='false' data-cookie-text="We use cookies to put trackers on your computer to track your web activity. Dont worry we wont sell your data.(we will donate em)">
+  </body>
+</html>
